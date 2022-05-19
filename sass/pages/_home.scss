@@ -4,9 +4,50 @@
     }
 }
 
-.contact-form{
-    padding: 50px 0;
+.actualites{
+    padding: 60px 0;
+}
+
+.partenaires{
+    padding: 60px 0;
     background-color: $bgGrey;
+    .owl-carousel{
+        margin-top: 50px;
+        .owl-item{
+            img{
+                width: inherit;
+                margin: 0 auto;
+            }
+        }
+        .owl-nav{
+            position: relative;
+            width: 100%;
+            bottom: 100px;
+            margin-bottom: -10px;
+            .owl-prev{
+                float: left;
+                span{
+                    font-size: 50px;
+                }
+            }
+            .owl-next{
+                float: right;
+                span{
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+    
+}
+
+.home-extranet{
+    padding: 100px 0;
+}
+
+.contact-form{
+    padding: 60px 0;
+    background-color: $bgBlueGrey;
     .text-end{
         border-right: 2px solid $orange;
         p:last-child{

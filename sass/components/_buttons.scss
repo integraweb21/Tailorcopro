@@ -9,3 +9,11 @@
         color: $blue;
     }
 }
+
+.link-orange{
+    color: $orange;
+    font-weight: 600;
+    &:hover{
+        color: $blue;
+    }
+}

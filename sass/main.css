@@ -34,13 +34,26 @@ h2 {
 }
 
 h2 span {
-  font-weight: 600;
+  font-weight: 500;
+}
+
+h2 .orange {
+  color: #FF6456;
 }
 
 h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h4 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 18px;
 }
 
 .btn-blue {
@@ -53,6 +66,15 @@ h3 {
 
 .btn-blue:hover {
   background-color: transparent;
+  color: #2C2763;
+}
+
+.link-orange {
+  color: #FF6456;
+  font-weight: 600;
+}
+
+.link-orange:hover {
   color: #2C2763;
 }
 
@@ -77,6 +99,10 @@ footer {
 footer a {
   display: block;
   margin: 15px 0;
+}
+
+footer a:hover {
+  color: #FF6456;
 }
 
 nav .navbar-nav a {
@@ -132,8 +158,53 @@ form {
   margin-top: 30px;
 }
 
+.actualites {
+  padding: 60px 0;
+}
+
+.partenaires {
+  padding: 60px 0;
+  background-color: rgba(255, 190, 156, 0.09);
+}
+
+.partenaires .owl-carousel {
+  margin-top: 50px;
+}
+
+.partenaires .owl-carousel .owl-item img {
+  width: inherit;
+  margin: 0 auto;
+}
+
+.partenaires .owl-carousel .owl-nav {
+  position: relative;
+  width: 100%;
+  bottom: 100px;
+  margin-bottom: -10px;
+}
+
+.partenaires .owl-carousel .owl-nav .owl-prev {
+  float: left;
+}
+
+.partenaires .owl-carousel .owl-nav .owl-prev span {
+  font-size: 50px;
+}
+
+.partenaires .owl-carousel .owl-nav .owl-next {
+  float: right;
+}
+
+.partenaires .owl-carousel .owl-nav .owl-next span {
+  font-size: 50px;
+}
+
+.home-extranet {
+  padding: 100px 0;
+}
+
 .contact-form {
-  padding: 50px 0;
+  padding: 60px 0;
   background-color: rgba(44, 39, 99, 0.08);
 }
 
