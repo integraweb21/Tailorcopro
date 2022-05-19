@@ -1,3 +1,17 @@
 header{
-    background-color: $blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px !important;
+    .logo{
+        position: absolute;
+        top: 85px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .extranet{
+        a{
+            position: relative;
+            top: 15px;
+        }
+    }
 }

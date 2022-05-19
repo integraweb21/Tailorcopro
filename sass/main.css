@@ -1,4 +1,50 @@
-header {
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-blue {
   background-color: #2C2763;
+  border: 1px solid #2C2763;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.btn-blue:hover {
+  background-color: transparent;
+  color: #2C2763;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px !important;
+}
+
+header .logo {
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+header .extranet a {
+  position: relative;
+  top: 15px;
+}
+
+nav .navbar-nav a {
+  color: #2C2763 !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
 }
 /*# sourceMappingURL=main.css.map */
