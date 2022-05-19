@@ -1,3 +1,11 @@
+:hover{
+	transition: all 0.3s ease-in-out 0s;
+}
+
+:focus{
+    outline: none;
+}
+
 a{
     text-decoration: none;
     color: inherit;

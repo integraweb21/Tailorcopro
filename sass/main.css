@@ -1,3 +1,12 @@
+:hover {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+:focus {
+  outline: none;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -10,6 +19,22 @@ ul {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  color: #2C2763;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+
+h2 span {
+  font-weight: 600;
 }
 
 h3 {
@@ -44,6 +69,7 @@ header .extranet a {
 }
 
 footer {
+  padding: 50px 0;
   color: #8195AA;
   font-size: 14px;
 }
@@ -57,5 +83,69 @@ nav .navbar-nav a {
   color: #2C2763 !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
+}
+
+nav .navbar-nav a:hover {
+  color: #FF6456 !important;
+}
+
+::-webkit-input-placeholder {
+  color: #2C2763;
+}
+
+:-ms-input-placeholder {
+  color: #2C2763;
+}
+
+::-ms-input-placeholder {
+  color: #2C2763;
+}
+
+::placeholder {
+  color: #2C2763;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+  color: #2C2763;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #2C2763;
+  padding-bottom: 15px;
+}
+
+input[type=submit] {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+label {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+form {
+  margin-top: 40px;
+}
+
+.banner h1 {
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding: 50px 0;
+  background-color: rgba(44, 39, 99, 0.08);
+}
+
+.contact-form .text-end {
+  border-right: 2px solid #FF6456;
+}
+
+.contact-form .text-end p:last-child {
+  margin-bottom: 0px;
+}
+
+.contact-form .text-start p:last-child {
+  margin-bottom: 0px;
 }
 /*# sourceMappingURL=main.css.map */

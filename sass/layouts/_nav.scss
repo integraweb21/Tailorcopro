@@ -4,6 +4,9 @@ nav{
             color: $blue !important;
             padding-left: 25px !important;
             padding-right: 25px !important;
+            &:hover{
+                color: $orange !important;
+            }
         }
     }
 }

@@ -1,0 +1,21 @@
+.banner{
+    h1{
+        margin-top: 30px;
+    }
+}
+
+.contact-form{
+    padding: 50px 0;
+    background-color: $bgGrey;
+    .text-end{
+        border-right: 2px solid $orange;
+        p:last-child{
+            margin-bottom: 0px;
+        }
+    }
+    .text-start{
+        p:last-child{
+            margin-bottom: 0px;
+        }
+    }
+}
