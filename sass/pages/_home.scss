@@ -4,6 +4,38 @@
     }
 }
 
+.intro{
+    padding: 60px 0;
+}
+
+.temoignages{
+    padding: 60px 0;
+    .owl-nav{
+        bottom: 150px;
+    }
+    .name{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .localisation{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .msg{
+        margin-top: 30px;
+        &:before{
+            content: "";
+            display: block;
+            position: relative;
+            bottom: 15px;
+            background-color: $orange;
+            width: 60px;
+            height: 2px;
+            margin: 0 auto;
+        }
+    }
+}
+
 .actualites{
     padding: 60px 0;
 }
@@ -11,34 +43,9 @@
 .partenaires{
     padding: 60px 0;
     background-color: $bgGrey;
-    .owl-carousel{
-        margin-top: 50px;
-        .owl-item{
-            img{
-                width: inherit;
-                margin: 0 auto;
-            }
-        }
-        .owl-nav{
-            position: relative;
-            width: 100%;
-            bottom: 100px;
-            margin-bottom: -10px;
-            .owl-prev{
-                float: left;
-                span{
-                    font-size: 50px;
-                }
-            }
-            .owl-next{
-                float: right;
-                span{
-                    font-size: 50px;
-                }
-            }
-        }
+    .owl-nav{
+        bottom: 100px;
     }
-    
 }
 
 .home-extranet{

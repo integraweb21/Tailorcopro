@@ -1,5 +1,5 @@
 footer{
-    padding: 50px 0;
+    padding: 50px 0 0;
     color: $bluegrey;
     font-size: 14px;
     a{
@@ -8,5 +8,8 @@ footer{
         &:hover{
             color: $orange;
         }
+    }
+    .copyright{
+        padding: 30px 0;
     }
 }
