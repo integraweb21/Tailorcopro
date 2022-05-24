@@ -197,6 +197,17 @@ form {
   padding: 60px 0;
 }
 
+.intro:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 50px;
+  background-color: rgba(44, 39, 99, 0.5);
+  width: 50%;
+  height: 1px;
+  margin: 0 auto;
+}
+
 .temoignages {
   padding: 60px 0;
 }
@@ -230,8 +241,19 @@ form {
   margin: 0 auto;
 }
 
+.temoignages:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 40px;
+  background-color: rgba(44, 39, 99, 0.5);
+  width: 50%;
+  height: 1px;
+  margin: 0 auto;
+}
+
 .actualites {
-  padding: 60px 0;
+  padding: 60px 0 80px;
 }
 
 .partenaires {
