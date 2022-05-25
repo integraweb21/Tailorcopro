@@ -72,18 +72,7 @@
     padding: 100px 0;
 }
 
-.contact-form{
+.f-form{
     padding: 60px 0;
     background-color: $bgBlueGrey;
-    .text-end{
-        border-right: 2px solid $orange;
-        p:last-child{
-            margin-bottom: 0px;
-        }
-    }
-    .text-start{
-        p:last-child{
-            margin-bottom: 0px;
-        }
-    }
 }

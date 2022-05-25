@@ -58,6 +58,10 @@ h1 {
   font-weight: 200;
 }
 
+h1 span {
+  font-weight: 500;
+}
+
 h2 {
   font-size: 30px;
   font-weight: 200;
@@ -121,6 +125,11 @@ header .extranet a {
   top: 15px;
 }
 
+.page .logo {
+  position: relative;
+  top: -50px;
+}
+
 footer {
   padding: 50px 0 0;
   color: #8195AA;
@@ -166,6 +175,22 @@ nav .navbar-nav a:hover {
   color: #2C2763;
 }
 
+.contact-form h1 {
+  margin-bottom: 50px;
+}
+
+.contact-form .text-end {
+  border-right: 2px solid #FF6456;
+}
+
+.contact-form .text-end p:last-child {
+  margin-bottom: 0px;
+}
+
+.contact-form .text-start p:last-child {
+  margin-bottom: 0px;
+}
+
 input[type=text], input[type=email], input[type=tel], textarea {
   color: #2C2763;
   width: 100%;
@@ -186,7 +211,7 @@ label {
 }
 
 form {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .banner h1 {
@@ -269,20 +294,8 @@ form {
   padding: 100px 0;
 }
 
-.contact-form {
+.f-form {
   padding: 60px 0;
   background-color: rgba(44, 39, 99, 0.08);
-}
-
-.contact-form .text-end {
-  border-right: 2px solid #FF6456;
-}
-
-.contact-form .text-end p:last-child {
-  margin-bottom: 0px;
-}
-
-.contact-form .text-start p:last-child {
-  margin-bottom: 0px;
 }
 /*# sourceMappingURL=main.css.map */
