@@ -9,6 +9,12 @@ h1{
     span{
         font-weight: 500;
     }
+    @media (max-width: 1350px){
+        margin-top: 50px;
+    }
+    @media (max-width: 768px){
+        font-size: 38px;
+    }
 }
 
 h2{

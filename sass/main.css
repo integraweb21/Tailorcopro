@@ -62,6 +62,18 @@ h1 span {
   font-weight: 500;
 }
 
+@media (max-width: 1350px) {
+  h1 {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 38px;
+  }
+}
+
 h2 {
   font-size: 30px;
   font-weight: 200;
@@ -120,14 +132,42 @@ header .top {
   padding: 30px 30px 0 30px !important;
 }
 
+@media (max-width: 768px) {
+  header .top {
+    padding-bottom: 30px !important;
+  }
+}
+
+header .extranet i {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  header .extranet i {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  header .extranet span {
+    display: none;
+  }
+}
+
 header .extranet a {
   position: relative;
   top: 15px;
 }
 
-.page .logo {
+.page .logo img {
   position: relative;
   top: -50px;
+}
+
+@media (max-width: 1350px) {
+  .page .logo img {
+    top: initial;
+  }
 }
 
 footer {
@@ -147,6 +187,15 @@ footer a:hover {
 
 footer .copyright {
   padding: 30px 0;
+}
+
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+  footer img {
+    margin-bottom: 30px;
+  }
 }
 
 nav .navbar-nav a {
@@ -179,15 +228,34 @@ nav .navbar-nav a:hover {
   margin-bottom: 50px;
 }
 
-.contact-form .text-end {
+.contact-form .left {
   border-right: 2px solid #FF6456;
+  text-align: right;
 }
 
-.contact-form .text-end p:last-child {
+@media (max-width: 768px) {
+  .contact-form .left {
+    text-align: center;
+    margin-bottom: 1rem;
+    border: none;
+  }
+}
+
+.contact-form .left p:last-child {
   margin-bottom: 0px;
 }
 
-.contact-form .text-start p:last-child {
+.contact-form .right {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .contact-form .right {
+    text-align: center;
+  }
+}
+
+.contact-form .right p:last-child {
   margin-bottom: 0px;
 }
 
