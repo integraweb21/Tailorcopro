@@ -284,6 +284,10 @@ form {
 
 .banner h1 {
   margin-top: 30px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .intro {
@@ -309,9 +313,25 @@ form {
   bottom: 150px;
 }
 
-.temoignages .name {
+.temoignages .infos {
+  display: inline-block;
+}
+
+.temoignages .infos .name {
   font-size: 18px;
   font-weight: 600;
+}
+
+.temoignages .infos:before {
+  content: "";
+  display: block;
+  position: relative;
+  background-image: url("../img/Temoignage.svg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 20px;
+  left: -20px;
+  margin-bottom: 5px;
 }
 
 .temoignages .localisation {
@@ -347,6 +367,10 @@ form {
 
 .actualites {
   padding: 60px 0 80px;
+}
+
+.actualites h3 {
+  margin-top: 15px;
 }
 
 .partenaires {

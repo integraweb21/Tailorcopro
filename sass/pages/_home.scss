@@ -1,6 +1,9 @@
 .banner{
     h1{
         margin-top: 30px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
@@ -23,9 +26,23 @@
     .owl-nav{
         bottom: 150px;
     }
-    .name{
-        font-size: 18px;
-        font-weight: 600;
+    .infos{
+        display: inline-block;
+        .name{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        &:before{
+            content: "";
+            display: block;
+            position: relative;
+            background-image: url('../img/Temoignage.svg');
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 20px;
+            left: -20px;
+            margin-bottom: 5px;
+        }  
     }
     .localisation{
         font-size: 14px;
@@ -58,6 +75,9 @@
 
 .actualites{
     padding: 60px 0 80px;
+    h3{
+        margin-top: 15px;
+    }
 }
 
 .partenaires{
