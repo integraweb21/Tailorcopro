@@ -10,3 +10,37 @@ nav{
         }
     }
 }
+
+.nav-pills{
+    justify-content: center;
+    .nav-link{
+        color: $blue;
+        padding: 30px 50px 25px;
+        margin-bottom: 50px;
+        span{
+            display: block;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+    }
+    .nav-link.active{
+        background-color: #fff;
+        box-shadow: 0 2px 20px 0 rgba(0,0,0,0.1);
+        color: $blue;
+    }
+}
+
+.tab-content{
+    h3{
+        font-family: 'Poppins', sans-serif;
+        color: $orange;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    img{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

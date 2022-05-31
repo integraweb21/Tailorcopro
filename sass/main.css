@@ -28,8 +28,13 @@ ul {
   margin: 0 auto;
 }
 
+.bg-blue {
+  padding: 60px 0;
+  background-color: rgba(44, 39, 99, 0.08);
+}
+
 .page footer {
-  background-color: rgba(44, 39, 99, 0.04);
+  background-color: rgba(44, 39, 99, 0.08);
 }
 
 .owl-carousel {
@@ -238,6 +243,75 @@ nav .navbar-nav a {
 
 nav .navbar-nav a:hover {
   color: #FF6456 !important;
+}
+
+.nav-pills {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-pills .nav-link {
+  color: #2C2763;
+  padding: 30px 50px 25px;
+  margin-bottom: 50px;
+}
+
+.nav-pills .nav-link span {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+  color: #2C2763;
+}
+
+.tab-content h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #FF6456;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.tab-content img {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.terrain, .gestion {
+  padding: 80px 0;
+}
+
+.terrain img, .gestion img {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.icons {
+  padding: 60px 0;
+}
+
+.icons strong {
+  font-weight: 600;
+}
+
+.icons img {
+  margin-bottom: 15px;
+}
+
+.icons .star {
+  font-size: 13px;
+  margin-top: 50px;
+  letter-spacing: 1px;
 }
 
 ::-webkit-input-placeholder {

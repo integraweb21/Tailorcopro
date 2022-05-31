@@ -1,0 +1,23 @@
+.terrain, .gestion{
+    padding: 80px 0;
+    img{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.icons{
+    padding: 60px 0;
+    strong{
+        font-weight: 600;
+    }
+    img{
+        margin-bottom: 15px;
+    }
+    .star{
+        font-size: 13px;
+        margin-top: 50px;
+        letter-spacing: 1px;
+    }
+}

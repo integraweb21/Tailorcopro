@@ -27,9 +27,13 @@ ul{
     margin: 0 auto;
 }
 
+.bg-blue{
+    padding: 60px 0;
+    background-color: $bgBlueGrey;
+}
 
 .page footer{
-    background-color: rgba(44,39,99,0.04);
+    background-color: $bgBlueGrey;
 }
 
 .owl-carousel{
