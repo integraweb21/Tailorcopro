@@ -400,6 +400,10 @@ form {
           transform: translateX(-50%);
 }
 
+.banner img {
+  width: 100%;
+}
+
 .intro {
   padding: 60px 0;
 }
@@ -466,6 +470,10 @@ form {
 
 .actualites h3 {
   margin-top: 15px;
+}
+
+.actualites img {
+  width: 100%;
 }
 
 .partenaires {
