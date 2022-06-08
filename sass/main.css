@@ -570,6 +570,17 @@ form {
   margin-left: 30px;
 }
 
+.chiffres .item span {
+  color: #FF6456;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.chiffres .item .title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .banner-job {
   margin: 60px 0;
   padding: 100px 0;
