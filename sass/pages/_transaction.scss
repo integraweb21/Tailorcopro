@@ -11,3 +11,22 @@
         }
     } 
 }
+
+.transaction-contact{
+    .btn-orange{
+        position: relative;
+        top: 30px;
+    }
+}
+
+.kg-footer-icon-1, .kg-footer-icon-2{
+    position: relative;
+    @media (max-width: 768px){
+        display: none;
+    }
+}
+
+.kg-footer-icon-2{
+    float: right;
+    top: 15px;
+}
