@@ -334,38 +334,38 @@ nav .navbar-nav a:hover {
   color: #2C2763;
 }
 
-.contact-form h1 {
+.contact-form h1, .page-contact h1 {
   margin-bottom: 50px;
 }
 
-.contact-form .left {
+.contact-form .left, .page-contact .left {
   border-right: 2px solid #FF6456;
   text-align: right;
 }
 
 @media (max-width: 768px) {
-  .contact-form .left {
+  .contact-form .left, .page-contact .left {
     text-align: center;
     margin-bottom: 1rem;
     border: none;
   }
 }
 
-.contact-form .left p:last-child {
+.contact-form .left p:last-child, .page-contact .left p:last-child {
   margin-bottom: 0px;
 }
 
-.contact-form .right {
+.contact-form .right, .page-contact .right {
   text-align: left;
 }
 
 @media (max-width: 768px) {
-  .contact-form .right {
+  .contact-form .right, .page-contact .right {
     text-align: center;
   }
 }
 
-.contact-form .right p:last-child {
+.contact-form .right p:last-child, .page-contact .right p:last-child {
   margin-bottom: 0px;
 }
 
