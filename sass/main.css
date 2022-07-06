@@ -116,7 +116,7 @@ h1 span {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 38px;
+    font-size: 30px;
   }
 }
 
@@ -124,6 +124,12 @@ h2 {
   font-size: 30px;
   font-weight: 200;
   margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+  }
 }
 
 h2 span {
@@ -143,6 +149,12 @@ h4 {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 15px;
+  }
 }
 
 .subtitle {
@@ -198,6 +210,7 @@ header .top {
 @media (max-width: 768px) {
   header .top {
     padding-bottom: 30px !important;
+    padding-left: 5px !important;
   }
 }
 
@@ -220,6 +233,14 @@ header .extranet i {
 header .extranet a {
   position: relative;
   top: 15px;
+}
+
+@media (max-width: 768px) {
+  header .extranet a {
+    display: block;
+    top: 5px;
+    padding: 13px 15px;
+  }
 }
 
 .page .logo img {
@@ -263,12 +284,27 @@ footer .copyright {
 
 nav .navbar-nav a {
   color: #2C2763 !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+}
+
+@media (min-width: 768px) {
+  nav .navbar-nav a {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
 }
 
 nav .navbar-nav a:hover {
   color: #FF6456 !important;
+}
+
+@media (max-width: 768px) {
+  nav .navbar-collapse {
+    margin-top: 10px;
+  }
+}
+
+nav .navbar-toggler {
+  border: none;
 }
 
 .nav-pills {
@@ -281,6 +317,12 @@ nav .navbar-nav a:hover {
   color: #2C2763;
   padding: 30px 50px 25px;
   margin: 15px 15px 50px 15px;
+}
+
+@media (max-width: 768px) {
+  .nav-pills .nav-link {
+    margin-bottom: 0px;
+  }
 }
 
 .nav-pills .nav-link span {
@@ -308,6 +350,13 @@ nav .navbar-nav a:hover {
   margin-bottom: 15px;
 }
 
+@media (max-width: 768px) {
+  .tab-content h3 {
+    margin-top: 20px;
+    font-size: 26px;
+  }
+}
+
 .tab-content img {
   position: relative;
   top: 50%;
@@ -317,6 +366,13 @@ nav .navbar-nav a:hover {
 
 .terrain, .gestion {
   padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+  .terrain, .gestion {
+    padding: 30px 0;
+    text-align: center;
+  }
 }
 
 .terrain img, .gestion img {
@@ -419,11 +475,17 @@ form {
 }
 
 .banner h1 {
-  margin-top: 30px;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .banner h1 {
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
 }
 
 .banner img {

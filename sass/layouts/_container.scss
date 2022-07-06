@@ -1,5 +1,9 @@
 .terrain, .gestion{
     padding: 80px 0;
+    @media (max-width: 768px){
+        padding: 30px 0;
+        text-align: center;
+    }
     img{
         position: relative;
         top: 50%;
